@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>ReSelect 艶髪ヘナ｜Lisaからのご招待</title>
+<meta name="description" content="Lisaから招待された方だけにお届けしている、艶髪ヘナのご案内ページです。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ReSelect 艶髪ヘナ｜Lisaからのご招待">
+<meta property="og:description" content="髪は、顔の額縁。植物のヘナで、年齢を重ねても美しい艶髪へ。使い方・艶ヘナ会・代官山サロン会のご案内です。">
+<meta property="og:url" content="https://infobreadsalonlisa-crypto.github.io/reselect/">
+<meta property="og:image" content="https://infobreadsalonlisa-crypto.github.io/reselect/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap">
+<style>
+:root{
+  --cream:#F6F3EA; --paper:#FFFDF7; --ink:#2B2A24; --muted:#6B6858; --line:#E2DCCB;
+  --sage:#5E7250; --sage-deep:#2F3B2A; --sage-soft:#E7ECDF; --henna:#7A4526; --gold:#B89B5E;
+  --serif:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  --sans:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --latin:"Cormorant Garamond","Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.9;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--sage-deep)}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px}
+.narrow{max-width:680px}
+
+/* top bar */
+.bar{position:sticky;top:0;z-index:10;background:rgba(246,243,234,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
+.logo{font-family:var(--latin);font-style:italic;font-size:26px;color:var(--sage-deep);text-decoration:none;line-height:1}
+.logo small{font-family:var(--sans);font-style:normal;font-size:11px;letter-spacing:.12em;color:var(--muted);margin-left:8px}
+.bar .cta-s{font-size:13px;font-weight:700;text-decoration:none;color:#fff;background:var(--sage);padding:8px 14px;border-radius:999px;white-space:nowrap}
+
+/* hero */
+.hero{position:relative;min-height:min(88vh,760px);display:grid;align-items:end;overflow:hidden;background:var(--sage-deep)}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,24,18,.05) 30%,rgba(20,24,18,.72) 100%)}
+.hero .in{position:relative;z-index:1;padding-block:48px 56px;color:#fff}
+.badge{display:inline-block;font-size:12px;letter-spacing:.14em;font-weight:700;border:1px solid rgba(255,255,255,.7);padding:4px 12px;border-radius:999px}
+.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(34px,7vw,64px);line-height:1.3;margin:18px 0 10px;text-wrap:balance}
+.hero p{font-size:clamp(15px,2.2vw,18px);max-width:34em;margin:0 0 26px;opacity:.95}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;text-decoration:none;padding:14px 22px;border-radius:999px;min-height:48px}
+.btn-main{background:#06C755;color:#fff}
+.btn-ghost{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.6)}
+.btn-sage{background:var(--sage);color:#fff}
+.btn:focus-visible,.cta-s:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+/* sections */
+section{padding-block:72px}
+.eyebrow{font-family:var(--latin);font-style:italic;font-size:20px;color:var(--gold);margin:0 0 4px}
+h2{font-family:var(--serif);font-size:clamp(24px,4vw,34px);line-height:1.45;margin:0 0 20px;text-wrap:balance}
+h3{font-family:var(--serif);font-size:19px;margin:0 0 6px}
+p{margin:0 0 14px}
+.lead{font-size:17px}
+.muted{color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+
+/* greeting */
+.greet{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:40px;align-items:center}
+.greet img{aspect-ratio:4/5;object-fit:cover;border-radius:4px}
+.sign{font-family:var(--latin);font-style:italic;font-size:28px;color:var(--henna);margin-top:8px}
+@media (max-width:760px){.greet{grid-template-columns:1fr;gap:24px}.greet img{aspect-ratio:3/2}}
+
+/* pillars */
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pillar{background:var(--paper);border:1px solid var(--line);padding:24px 22px}
+.pillar .k{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--sage)}
+@media (max-width:760px){.pillars{grid-template-columns:1fr}}
+
+/* why */
+.bg-sage{background:var(--sage-deep);color:#F1EFE4}
+.bg-sage .eyebrow{color:#D9C38E}
+.bg-sage .muted,.bg-sage .note{color:#C9CDBD}
+.why{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
+.why img{border-radius:4px;aspect-ratio:1/1;object-fit:cover;background:#fff}
+.why ol{list-style:none;margin:0;padding:0;display:grid;gap:22px}
+.why li{display:grid;grid-template-columns:44px 1fr;gap:14px}
+.why .num{font-family:var(--latin);font-style:italic;font-size:34px;color:#D9C38E;line-height:1}
+@media (max-width:760px){.why{grid-template-columns:1fr}}
+
+/* how-to */
+.steps{display:grid;gap:14px;counter-reset:s}
+.step{display:grid;grid-template-columns:64px 1fr;gap:16px;background:var(--paper);border:1px solid var(--line);padding:18px 20px;align-items:start}
+.step .no{font-family:var(--latin);font-style:italic;font-size:34px;color:var(--henna);line-height:1;text-align:center}
+.step .no small{display:block;font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.12em;color:var(--muted);margin-top:4px}
+.step.first{border-color:var(--henna);background:#FBF3EC}
+.step p{margin:0;font-size:15px}
+.tip{margin-top:20px;background:var(--sage-soft);padding:16px 20px;font-size:14.5px}
+
+/* colors */
+.colors{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.color{background:var(--paper);border:1px solid var(--line)}
+.color .sw{height:64px}
+.color .t{padding:10px 12px;font-size:14px;font-weight:700}
+
+/* meetup */
+.meet{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:0;background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.meet .img{min-height:280px;background:url(img/flower.jpg) center 20%/cover}
+.meet .body{padding:32px 30px}
+.when{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:16px 0 22px;font-size:15px}
+.when dt{color:var(--muted)}
+.when dd{margin:0;font-weight:700}
+.next{display:inline-block;background:var(--henna);color:#fff;font-size:13px;font-weight:700;padding:4px 12px;border-radius:999px;margin-bottom:10px}
+@media (max-width:760px){.meet{grid-template-columns:1fr}.meet .img{min-height:220px}.meet .body{padding:26px 22px}}
+
+/* path */
+.path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line);background:var(--paper)}
+.path > div{padding:26px 22px;border-right:1px solid var(--line)}
+.path > div:last-child{border-right:0}
+.path .k{font-family:var(--latin);font-style:italic;font-size:22px;color:var(--gold)}
+@media (max-width:760px){.path{grid-template-columns:1fr}.path > div{border-right:0;border-bottom:1px solid var(--line)}.path > div:last-child{border-bottom:0}}
+
+/* faq */
+details{background:var(--paper);border:1px solid var(--line);margin-bottom:10px}
+summary{cursor:pointer;padding:16px 20px;font-weight:700;list-style:none;position:relative;padding-right:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:22px;color:var(--sage)}
+details[open] summary::after{content:"−"}
+details .a{padding:0 20px 18px;font-size:15px;color:var(--muted)}
+
+/* final */
+.final{position:relative;overflow:hidden;background:var(--sage-deep);color:#fff;text-align:center}
+.final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35}
+.final .in{position:relative}
+.final .btns{justify-content:center}
+
+footer{padding-block:36px 48px;font-size:12.5px;color:var(--muted);line-height:1.8}
+footer p{margin:0 0 8px}
+
+/* stat strip */
+.stats{background:var(--paper);border-bottom:1px solid var(--line)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));text-align:center}
+.stats div div{padding:18px 8px}
+.stats b{display:block;font-family:var(--latin);font-style:italic;font-size:30px;color:var(--henna);line-height:1.1;font-weight:500}
+.stats span{font-size:12.5px;color:var(--muted)}
+@media (max-width:600px){.stats .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* leaf to colour */
+.magic{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:26px 0 8px}
+.magic div{text-align:center;padding:14px 8px;border:1px solid rgba(255,255,255,.18)}
+.magic i{display:block;width:44px;height:44px;border-radius:50%;margin:0 auto 8px}
+.magic b{display:block;font-size:14px}
+.magic span{font-size:12px;color:#C9CDBD}
+.marks{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.marks span{font-size:12px;border:1px solid rgba(255,255,255,.4);padding:3px 10px;border-radius:999px}
+/* daikanyama */
+.dk{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;background:#FBF3EC;border:1px solid #E9D6C6;overflow:hidden}
+.dk .img{min-height:300px;background:url(img/gloss2.jpg) center 25%/cover}
+.dk .body{padding:32px 30px}
+.dk .flow{list-style:none;margin:14px 0 18px;padding:0;display:grid;gap:8px}
+.dk .flow li{display:grid;grid-template-columns:26px 1fr;gap:10px;font-size:15px}
+.dk .flow li b{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--henna);color:#fff;font-size:12px}
+.price{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:15px;margin-bottom:20px}
+.price dt{color:var(--muted)}.price dd{margin:0;font-weight:700}
+.btn-henna{background:var(--henna);color:#fff}
+@media (max-width:760px){.dk{grid-template-columns:1fr}.dk .img{min-height:220px}.dk .body{padding:26px 22px}}
+/* colors desc */
+.color .t small{display:block;font-weight:400;font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.6}
+/* salons */
+.salons{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.salon{background:var(--paper);border:1px solid var(--line);padding:14px 16px;text-decoration:none;color:var(--ink);display:block}
+.salon b{display:block;font-family:var(--serif);font-size:16px}
+.salon span{font-size:13px;color:var(--muted)}
+.salon.lisa{border-color:var(--henna);background:#FBF3EC}
+.salon:hover,.salon:focus-visible{border-color:var(--sage)}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="logo" href="#top">ReSelect<small>艶髪ヘナ</small></a>
+    <a class="cta-s" href="https://lin.ee/n9g7qUI" target="_blank" rel="noopener">Lisaにメッセージ</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <img src="img/gloss.jpg" alt="まっすぐでツヤのある長い髪の後ろ姿">
+    <div class="wrap in">
+      <span class="badge">LISA からのご招待</span>
+      <h1>髪は、顔の額縁。</h1>
+      <p>年齢を重ねても、美しい艶髪へ。<br>植物のヘナで、髪も、毎日の習慣も、選び直してみませんか。</p>
+      <div class="btns">
+        <a class="btn btn-main" href="https://lin.ee/n9g7qUI" target="_blank" rel="noopener">LINEでLisaに聞いてみる</a>
+        <a class="btn btn-ghost" href="#meetup">艶ヘナ会をのぞく</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats" aria-label="クイーンズヘナについて">
+    <div class="wrap">
+      <div><b>100%</b><span>植物のカラートリートメント</span></div>
+      <div><b>6</b><span>選べる色</span></div>
+      <div><b>6</b><span>全国の直営サロン</span></div>
+      <div><b>1998</b><span>運営会社の設立</span></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap greet">
+      <img src="img/hero.jpg" alt="ウェーブのかかった長い髪で海辺に立つ女性の後ろ姿" loading="lazy">
+      <div>
+        <p class="eyebrow">Hello</p>
+        <h2>はじめまして、Lisaです</h2>
+        <p class="lead">このページを開いてくださって、ありがとうございます。</p>
+        <p>白髪が気になりはじめたとき、「染めるたびに髪が傷む」ことがずっと悩みでした。ヘナに出会ってからは、髪を染める時間が、自分をいたわる時間に変わりました。</p>
+        <p>ここは、私が本当に好きなヘナのことを、興味を持ってくださった方だけにお伝えしている場所です。使い方も、仲間との集まりも、ぜんぶ気軽にのぞいてみてください。</p>
+        <div class="sign">Lisa</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow">What is ReSelect</p>
+      <h2>ReSelect は、艶髪を「選び直す」仲間の集まりです</h2>
+      <div class="pillars">
+        <div class="pillar"><div class="k">技術</div><h3>きれいに塗れるコツ</h3><p class="muted">溶き方、塗り方、置き時間。自分で塗っても、ムラなく仕上げるコツを分かち合います。</p></div>
+        <div class="pillar"><div class="k">習慣</div><h3>続けられるリズム</h3><p class="muted">ヘナは「続けるほど楽しみになる」もの。無理なく続けられる、自分なりのリズムを見つけます。</p></div>
+        <div class="pillar"><div class="k">コミュニティ</div><h3>聞ける仲間がいる</h3><p class="muted">「これで合ってる？」をすぐに聞ける。毎月の艶ヘナ会で、同じ思いの仲間とつながれます。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-sage">
+    <div class="wrap why">
+      <img src="img/powder.jpg" alt="木の器に入った緑色のヘナパウダー" loading="lazy">
+      <div>
+        <p class="eyebrow">Why Henna</p>
+        <h2>私がクイーンズヘナを選ぶ理由</h2>
+        <ol>
+          <li><span class="num">1</span><div><h3>インドで育った植物のちから</h3><p class="muted">ヘナは、葉に含まれる「ローソン」という色素で髪を染める植物。古くからカラートリートメントとして使われてきました。</p></div></li>
+          <li><span class="num">2</span><div><h3>「化学染料なし」を検査で確かめている</h3><p class="muted">ジアミンなどの化学染料について検査を行い、試験報告書を公式サイトで公開しています。</p></div></li>
+          <li><span class="num">3</span><div><h3>染めながら、髪をいたわる</h3><p class="muted">使う目的は、髪のトリートメントと白髪のカラーリング。染めるたびに、髪にツヤを与えます。</p></div></li>
+        </ol>
+        <div class="magic" aria-label="ヘナの色が変わる流れ">
+          <div><i style="background:#6E7B3E"></i><b>葉</b><span>インドの葉を粉に</span></div>
+          <div><i style="background:#7C8A45"></i><b>ペースト</b><span>溶いてもまだ緑</span></div>
+          <div><i style="background:#9A4A2A"></i><b>髪の色</b><span>髪の上で赤銅色に</span></div>
+        </div>
+        <p class="muted" style="font-size:14px">緑の粉が、髪の上で温かい赤銅色に変わる。はじめて見ると、ちょっと感動します。</p>
+        <div class="marks"><span>植物100%</span><span>インド原産のヘナ</span><span>日本に届いてから検査</span><span>試験報告書を公開</span></div>
+        <p class="note" style="margin-top:18px">クイーンズヘナは「染毛料」で、分類は化粧品です。医薬品ではないため、病気の治療や体調改善を目的に使うものではありません。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="howto">
+    <div class="wrap narrow">
+      <p class="eyebrow">How to</p>
+      <h2>はじめてのヘナ、自分で塗る流れ</h2>
+      <p class="muted">分量と置き時間は、使うヘナの説明書に合わせてください。艶ヘナ会では、実際に塗るところをお見せします。</p>
+      <div class="steps">
+        <div class="step first"><div class="no">0<small>必ず</small></div><div><h3>パッチテスト（48時間）</h3><p>小さじ1杯のヘナを同じ量の水で溶き、腕の内側に10円玉ほど塗ります。30分後と48時間後に見て、赤み・かゆみなどがなければ使えます。</p></div></div>
+        <div class="step"><div class="no">1<small>準備</small></div><div><h3>道具をそろえる</h3><p>ヘナ、ボウル、ハケ、手袋、ケープやタオル、ラップ。汚れてもいい服に着替えておくと安心です。</p></div></div>
+        <div class="step"><div class="no">2<small>溶く</small></div><div><h3>ヘナをお湯で溶く</h3><p>説明書の分量のお湯を少しずつ加え、なめらかなペーストにします。</p></div></div>
+        <div class="step"><div class="no">3<small>塗る</small></div><div><h3>根元から、たっぷりと</h3><p>髪を小分けにして、白髪の気になる根元から塗っていきます。</p></div></div>
+        <div class="step"><div class="no">4<small>置く</small></div><div><h3>ラップで包んで待つ</h3><p>ラップで包み、説明書の時間だけ置きます。好きな音楽をかけたり、お茶を淹れたり。待つ時間も楽しみのひとつです。</p></div></div>
+        <div class="step"><div class="no">5<small>流す</small></div><div><h3>ぬるま湯でしっかり流す</h3><p>ぬるま湯でていねいに流し、乾かせば完成です。</p></div></div>
+      </div>
+      <p style="margin-top:18px"><a href="#daikanyama">自分で塗るのが不安な方は、代官山のサロン会へ →</a></p>
+      <div class="tip"><b>次の方は使わないでください：</b>パッチテストで異常があった方、頭・顔・首筋に傷や皮膚病がある方、妊娠中の方、小さなお子さま。</div>
+    </div>
+  </section>
+
+  <section id="daikanyama" style="padding-top:0">
+    <div class="wrap">
+      <div class="dk">
+        <div class="img" role="img" aria-label="ツヤのある長い髪の後ろ姿"></div>
+        <div class="body">
+          <p class="eyebrow">Salon Party in Daikanyama</p>
+          <h2>自分で塗るのが不安な方は、代官山のサロンで一緒に</h2>
+          <p>はじめての方も、Lisaがとなりで塗り方をサポートします。待ち時間はお茶を飲みながらおしゃべり。女子会のように楽しく、帰るころには髪がつやつやに。</p>
+          <ol class="flow">
+            <li><b>1</b><span>髪の悩みと色の相談</span></li>
+            <li><b>2</b><span>Lisaのサポートで、自分で塗ってみる</span></li>
+            <li><b>3</b><span>置き時間はお茶とおしゃべり</span></li>
+            <li><b>4</b><span>流して、仕上がりを一緒に楽しむ</span></li>
+          </ol>
+          <dl class="price">
+            <dt>参加費</dt><dd>2,200円（税込・サロンの使用料として）</dd>
+            <dt>持ち物</dt><dd>ご自身のヘナ</dd>
+            <dt>場所</dt><dd>代官山のプライベートサロン（詳しい場所はお申し込み後にお知らせします）</dd>
+            <dt>対象</dt><dd>会員登録をしてくださった方</dd>
+            <dt>日程</dt><dd>Lisaにお問い合わせください</dd>
+          </dl>
+          <a class="btn btn-henna" href="https://lin.ee/n9g7qUI" target="_blank" rel="noopener">代官山のサロン会に申し込む</a>
+          <p class="note" style="margin-top:12px">塗った後に髪を流せる環境があります。汚れてもいい服でお越しください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow">Colors</p>
+      <h2>色えらびは、Lisaと一緒に</h2>
+      <p class="muted">「白髪を隠す」ためではなく、「好きな色をまとう」ために。元の髪色や白髪の量で仕上がりは変わるので、あなたに合う色を一緒に選びましょう。</p>
+      <div class="colors">
+        <div class="color"><div class="sw" style="background:#A5472A"></div><div class="t">レッド<small>ヘナそのものの、明るい赤銅色</small></div></div>
+        <div class="color"><div class="sw" style="background:#C7A04A"></div><div class="t">イエロー<small>軽さを添えるヘナ</small></div></div>
+        <div class="color"><div class="sw" style="background:#6B4128"></div><div class="t">ニューブラウン<small>藍を合わせて赤みを抑えたブラウン</small></div></div>
+        <div class="color"><div class="sw" style="background:#4A3528"></div><div class="t">ハーブモカ<small>ヘナと藍に、インドの植物をプラス</small></div></div>
+        <div class="color"><div class="sw" style="background:#5A3E2B"></div><div class="t">ハーブブラウン<small>落ち着いた深いブラウン</small></div></div>
+        <div class="color"><div class="sw" style="background:#D9D2BF"></div><div class="t">ナチュラル<small>色をのせない、髪のトリートメント</small></div></div>
+      </div>
+      <p class="note" style="margin-top:10px">色はイメージです。実際の仕上がりとは異なります。</p>
+    </div>
+  </section>
+
+  <section id="meetup" style="padding-top:0">
+    <div class="wrap">
+      <div class="meet">
+        <div class="img" role="img" aria-label="小さな白い花とツヤのある長い髪"></div>
+        <div class="body">
+          <span class="next">次回 第7回　10月10日（土）20:00〜</span>
+          <p class="eyebrow">Monthly Meetup</p>
+          <h2>毎月の「艶ヘナ会」</h2>
+          <p>オンラインで気軽に参加できる、ReSelect の集まりです。カメラはオフでも大丈夫。</p>
+          <dl class="when">
+            <dt>日時</dt><dd>毎月第2土曜日 20:00〜</dd>
+            <dt>場所</dt><dd>オンライン（Zoom）</dd>
+            <dt>内容</dt><dd>塗り方の実演・質問タイム・仲間とのおしゃべり</dd>
+          </dl>
+          <a class="btn btn-sage" href="https://lin.ee/n9g7qUI" target="_blank" rel="noopener">参加したいとLisaに伝える</a>
+          <p class="note" style="margin-top:12px">参加用のリンクは、メッセージをくださった方に個別にお送りします。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="salons" style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow">Salons</p>
+      <h2>サロンはどこにあるの？</h2>
+      <p class="muted">近くで相談したい方は、全国6つの直営サロンへ。東京なら、Lisaの代官山サロン会もあります。</p>
+      <div class="salons">
+        <a class="salon lisa" href="#daikanyama"><b>代官山（Lisaのサロン会）</b><span>東京都渋谷区・プライベートサロン・会員の方向け</span></a>
+        <a class="salon" href="https://www.queens-henna.com/salon/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%82%B5%E3%83%AD%E3%83%B3/" rel="noopener"><b>六本木サロン</b><span>東京都港区・六本木駅から徒歩2分</span></a>
+        <a class="salon" href="https://www.queens-henna.com/salon/nagoya/" rel="noopener"><b>名古屋サロン</b><span>名古屋市西区・名古屋駅</span></a>
+        <a class="salon" href="https://www.queens-henna.com/salon/matsusaka/" rel="noopener"><b>松阪サロン</b><span>三重県松阪市・松阪駅</span></a>
+        <a class="salon" href="https://www.queens-henna.com/salon/osaka/" rel="noopener"><b>大阪サロン</b><span>大阪市北区・梅田駅から徒歩2分</span></a>
+        <a class="salon" href="https://www.queens-henna.com/salon/hiroshima/" rel="noopener"><b>広島サロン</b><span>広島市中区・銀山町電停から徒歩1分</span></a>
+        <a class="salon" href="https://www.queens-henna.com/salon/fukuoka/" rel="noopener"><b>福岡サロン</b><span>福岡市中央区・赤坂駅から徒歩4分</span></a>
+      </div>
+      <p class="note" style="margin-top:10px">直営サロンの営業時間・ご予約は、各サロンのページ（公式サイト）でご確認ください。</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow">Your Path</p>
+      <h2>ReSelect の楽しみ方</h2>
+      <div class="path">
+        <div><div class="k">01 知る</div><h3>艶ヘナ会をのぞく</h3><p class="muted">まずは見るだけでOK。ヘナってこういうものなんだ、を体感してください。</p></div>
+        <div><div class="k">02 使う</div><h3>自分塗りデビュー</h3><p class="muted">Lisaと一緒に色を選んで、はじめての一回を。不安な方は代官山のサロン会で一緒に塗りましょう。</p></div>
+        <div><div class="k">03 伝える</div><h3>「好き」を分かち合う</h3><p class="muted">ヘナの良さを周りに伝える仲間として活動する道もあります。興味のある方には、個別に書面でご説明します。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap narrow">
+      <p class="eyebrow">Q&amp;A</p>
+      <h2>よくいただく質問</h2>
+      <details><summary>白髪は染まりますか？</summary><div class="a">クイーンズヘナは白髪のカラーリングを目的とした商品です。色の出方は元の髪色や髪質で変わるので、色選びからご相談ください。</div></details>
+      <details><summary>自分で塗れるか不安です</summary><div class="a">艶ヘナ会で実際に塗るところをお見せしています。はじめての方がつまずきやすいポイントも、Lisaが個別にお答えします。</div></details>
+      <details><summary>近くにサロンはありますか？</summary><div class="a">全国に6つの直営サロン（六本木・名古屋・松阪・大阪・広島・福岡）があります。東京では、会員の方向けに代官山のプライベートサロンでサロン会を開いています。<a href="#salons">サロン一覧を見る</a></div></details>
+      <details><summary>代官山のサロン会には何を持っていけばいいですか？</summary><div class="a">ご自身のヘナをお持ちください。参加費は2,200円（税込・サロンの使用料）です。汚れてもいい服でお越しください。</div></details>
+      <details><summary>参加したら、何かを買わないといけませんか？</summary><div class="a">いいえ。オンラインの艶ヘナ会は、のぞくだけでも大丈夫です。無理にすすめることはありません。</div></details>
+      <details><summary>妊娠中でも使えますか？</summary><div class="a">妊娠中の方はお使いいただけません。また、使う前には必ず48時間のパッチテストをお願いしています。</div></details>
+    </div>
+  </section>
+
+  <section id="contact" class="final">
+    <img src="img/wave.jpg" alt="" loading="lazy">
+    <div class="wrap in narrow">
+      <p class="eyebrow" style="color:#D9C38E">Message</p>
+      <h2>気になったら、ひとことメッセージを</h2>
+      <p>「このページを見ました」だけで大丈夫です。<br>あなたの髪のこと、ゆっくりお聞かせください。</p>
+      <div class="btns" style="margin-top:22px">
+        <a class="btn btn-main" id="line-link" href="https://lin.ee/n9g7qUI" target="_blank" rel="noopener">LINEでLisaにメッセージ</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>このページは、株式会社エヌ・ティー・エイチのパートナーである 桑野リサ（Lisa）が個人で作成した、ご招待した方向けのご案内ページです。株式会社エヌ・ティー・エイチおよびクイーンズヘナの公式サイトではありません。</p>
+    <p>取り扱い商品：クイーンズヘナ（染毛料・化粧品）ほか、株式会社エヌ・ティー・エイチの商品。パートナー活動についてご案内する場合は、事前にその目的をお伝えし、概要書面をお渡ししたうえでご説明します。</p>
+    <p>商品の情報と試験報告書は、公式サイト <a href="https://www.queens-henna.com/safety/" rel="noopener">queens-henna.com</a> でご確認いただけます。</p>
+  </div>
+</footer>
+
+</body>
+</html>
